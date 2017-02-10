@@ -9,13 +9,13 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/about-us',function(req,res){
-   res.sendFile(path.join(__dirname, 'ui', 'download.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'about-us.html'));
 });
 app.get('/contacts',function(req,res){
     res.send('Article two required and will be severd here');
 });
 app.get('/downloads',function(req,res){
-    res.send('Article three required and will be severd here');
+    res.sendFile(path.join(__dirname, 'ui', 'download.html'));
 });
 app.get('/News-Feed',function(req,res){
     res.send('Article three required and will be severd here');
