@@ -15,7 +15,7 @@ app.get('/contacts',function(req,res){
     res.send('Article two required and will be severd here');
 });
 app.get('/downloads',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'download.html'));
+    res.sendFile(path.join(__dirname, 'ui', 'downloads.html'));
 });
 app.get('/News-Feed',function(req,res){
     res.send('Article three required and will be severd here');
