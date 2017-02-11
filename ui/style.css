@@ -19,4 +19,13 @@ body {
 .img-medium {
     height: 200px;
 }
-
+.dtag{
+    max-width:800px;
+    margin:0 auto;
+    color: #ff3300;
+    font-family: "Times New Roman", Georgia, Serif;
+    padding-top:60px;
+    padding-left:20px;
+    padding-right:20px;
+                
+     }
