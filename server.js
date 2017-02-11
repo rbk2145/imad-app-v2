@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 app.get('/about-us',function(req,res){
    res.sendFile(path.join(__dirname, 'ui', 'about-us.html'));
 });
-app.get('/contacts',function(req,res){
+app.get('/contact',function(req,res){
     res.send('Article two required and will be severd here');
 });
 app.get('/downloads',function(req,res){
