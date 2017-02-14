@@ -8,9 +8,9 @@ var img =document.getElementById('move-img');
 var marginLeft=0;
 function  moveright(){
     marginLeft=marginLeft+10;
-    img.syle.marginLeft=marginLeft='px';
+    img.syle.marginLeft=marginLeft+'px';
 }
 img.onclick=function(){
-    img.style.marginleft='auto';
+    var interval=setInterval(moveRight,100);
     
 };
