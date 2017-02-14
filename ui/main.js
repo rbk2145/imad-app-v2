@@ -7,10 +7,10 @@ element.innerHTML="Welcome to tech krishna world, A Complete CS world";
 var img =document.getElementById('move-img');
 var marginLeft=0;
 function  moveright(){
-    marginLeft=marginLeft+10;
+    marginLeft=marginLeft+5;
     img.syle.marginLeft=marginLeft+'px';
 }
 img.onclick=function(){
-    var interval=setInterval(moveRight,100);
+    var interval=setInterval(moveRight,50);
     
 };
